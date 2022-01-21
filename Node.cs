@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures
+namespace QueueUsingLinkedList
 {
-
     class Node
     {
         public int data;
@@ -16,5 +15,6 @@ namespace DataStructures
             this.data = data;
         }
     }
+
 
 }

@@ -1,11 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using DataStructures;
+using QueueUsingLinkedList;
 
 Console.WriteLine("Hello World!");
-LinkedList list = new LinkedList();
-list.Add(56);
-list.Add(30);
-list.Add(70);
-//list.InsertAtParticularPosition(2,30);
-list.Display();
+LinkedListQueue linkedListQueue = new LinkedListQueue();
+linkedListQueue.Enqueue(56);
+linkedListQueue.Enqueue(30);
+linkedListQueue.Enqueue(70);
+linkedListQueue.Display();// this.top=this.top.next
 Console.ReadKey();
