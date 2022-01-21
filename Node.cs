@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures
+namespace StackUsingLinkedList
 {
-
     class Node
     {
         public int data;

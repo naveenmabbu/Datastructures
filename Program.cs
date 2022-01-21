@@ -1,11 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using DataStructures;
+using StackUsingLinkedList;
 
 Console.WriteLine("Hello World!");
-LinkedList list = new LinkedList();
-list.Add(56);
-list.Add(30);
-list.Add(70);
-//list.InsertAtParticularPosition(2,30);
-list.Display();
+LinkedListStack linkedListStack = new LinkedListStack();
+linkedListStack.Push(70);
+linkedListStack.Push(30);
+linkedListStack.Push(56);
+linkedListStack.Display();
+linkedListStack.Peek(); 
+linkedListStack.Pop();
+linkedListStack.IsEmpty();
+linkedListStack.Display();
 Console.ReadKey();
